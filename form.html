@@ -1,27 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Cadastro</title>
     <link rel="stylesheet" href="form.css">
 </head>
+
 <body>
-    
-<section id="Formulario">
+
+    <section id="Form-container">
+
+        <div class="container">
+
+            <form action="">
+
+
+                <h1>Cadastre-se e tenha facilidades e descontos exclusivos</h1>
+
+
+                <p>preenchao fomulário abaixo e entraremos em contato com você</p>
+
+
+                <div class="input-single">    <!-- Aqui8 criamos uma DIV para inserirmos nossa Label e Input -->      
+
+                    <input type="text"  class="input" id="nome-box" name="nome"
+                      autocomplete="off" required >   <!-- Atribuimos os nomes de indentidicação q serão usadas no PHP -->
+
+                    <label for="">Nome Completo</label>   <!-- Aqui colocamos o nome q ira aparecer do lado da nossa caixa (Input) -->
+
+                </div>
+
+               
+                <div class="input-single">    <!-- Aqui8 criamos uma DIV para inserirmos nossa Label e Input -->      
+
+                    <input type="email"  class="input" id="email-box" name="email"
+                      autocomplete="off" required >   <!-- Atribuimos os nomes de indentidicação q serão usadas no PHP -->
+
+                    <label for="">Nome Completo</label>   <!-- Aqui colocamos o nome q ira aparecer do lado da nossa caixa (Input) -->
+
+                </div>
+
+               
+                <div class="input-single">    <!-- Aqui8 criamos uma DIV para inserirmos nossa Label e Input -->      
+
+                    <input type="number"  class="input" id="telefone-box" name="telefone"
+                      autocomplete="off" required >   <!-- Atribuimos os nomes de indentidicação q serão usadas no PHP -->
+
+                    <label for="">Nome Completo</label>   <!-- Aqui colocamos o nome q ira aparecer do lado da nossa caixa (Input) -->
+
+                </div>
+
+
+                <div class="btn"> <!-- Aqui atribuimos nosso butao de Enviar -->
+
+                    <input type="submit" value="Enviar">
+
+                </div>
 
 
 
-</section>
+            </form>
 
+        </div>
 
-
-
-
-
-
-
-
+    </section>
 
 </body>
+
 </html>
