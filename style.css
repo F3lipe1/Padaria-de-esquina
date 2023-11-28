@@ -14,20 +14,15 @@ header {
     /*Alinhar os itens do nosso Header para o centro*/
     justify-content: space-evenly;
     /* Tradução:justificar-conteúdo: espaço uniformemente. Alinhar os itens igualmente dentro da página */
-    padding: 15px;
+    padding: 2%;
     /* Cuida do Preenchimento */
-
     background: linear-gradient(180deg, #ff9e58 8%, #714116 50%);
-
 
     background-color: rgb(56, 49, 49);
     /* Cor de fundo do nosso Cabeçalho/Header */
     overflow: hidden;
     /* */
-    line-height: 200px;
-    /* altura da linha */
-    max-height: 200px;
-    /* altura máxima */
+
 }
 
 
@@ -133,19 +128,19 @@ header>img {
 
 #img-destaque {
     /* Aqui chamamos a ID que chamamos no HTML*/
-    padding: 260px;
+    padding: 20%;
     /* Cuida do Preenchimento */
     background-image: url(img/padaria\ \(1\).webp);
     /* Usada para inserir imagens de fundo */
     background-position: center;
     /* Aqui posicionamos nossa imagem para o centro */
+    background-size: cover;
 }
 
 
 /* Diferença entre ID e Class: A diferença entre um id e uma class é que um id é usado apenas para identificar um único elemento em nosso HTML. 
 Os identificadores são usados ​​apenas quando um elemento na página precisa ter um estilo específico aplicado a ele. 
 No entanto, uma class pode ser usada para identificar mais de um elemento HTML*/
-
 
 
 .img-div {
@@ -279,7 +274,7 @@ main>section>h2 {
     /* Estilo arredondado das bordas */
 }
 
-.VerMais{
+.VerMais {
     color: red;
     text-align: center;
 }
@@ -426,16 +421,65 @@ footer h2 {
 
 }
 
-.item-menu-footer>p{
-color: #000000;
-font-size: 24px;
-font-weight: bold; 
-/* Deixar letra Grossa */
-margin-left: 10px;
+.item-menu-footer>p {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    /* Deixar letra Grossa */
+    margin-left: 10px;
 
 }
 
-@media(max-widht:760px){
+@media(max-width:760px) {
+
+    #menu-header {
+        display: none;
+    }
+
+    #btn-header button a {
+        display: block;
+        font-family: bold;
+
+    }
+
+    #btn-header button a p {
+        font-size: 0.8;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    #btn-header button a img {
+        width: 30%;
+        height: auto;
+
+    }
+
+    header img {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    header h1 {
+        font-size: 1em;
+
+    }
+
+    header {
+        padding: 5%;
+
+    }
+
+    #img-destaque {
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    #img-padaria {
+        width: 100%;
+
+    }
 
 
 
@@ -444,5 +488,4 @@ margin-left: 10px;
 
 
 
-    
 }
