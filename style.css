@@ -135,6 +135,8 @@ header>img {
     background-position: center;
     /* Aqui posicionamos nossa imagem para o centro */
     background-size: cover;
+    /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
 }
 
 
@@ -145,7 +147,7 @@ No entanto, uma class pode ser usada para identificar mais de um elemento HTML*/
 
 .img-div {
     /* Aqui chamamos nossa Class para alteração*/
-    padding: 25px;
+    padding: 3%;
     /* Cuida do Preenchimento */
     background-image: url(img/img-div\ \(1\).jpg);
     /* Usada para inserir imagens de fundo */
@@ -157,9 +159,9 @@ No entanto, uma class pode ser usada para identificar mais de um elemento HTML*/
 
 main>section>h2 {
     /* Aqui estamos chamando nosso H2 para estilização */
-    margin-top: 0px;
+    margin-top: 0 auto;
     /*  indica o espaço acima do elemento / superior */
-    font-size: 36px;
+    font-size: 2rem;
     /* Tamanho da letra */
     text-align: center;
     /* Alinhando o texto para o centro */
@@ -173,7 +175,7 @@ main>section>h2 {
     /* Cor de fundo da nossa Section*/
     margin-top: 0;
     /*  indica o espaço acima do elemento / superior */
-    padding: 50px;
+    padding: 4em;
     /* Cuida do Preenchimento */
 }
 
@@ -181,7 +183,7 @@ main>section>h2 {
     /* Aqui chamamos nossa Class que está dentro do nosso HR, que é utilizado como uma quebra de linha temática entre elementos HTML*/
     margin: 0 auto;
     /* Definimos em 0 a margin e colocamos o mesmo para auto para que recaia para o todo */
-    width: 20%;
+    width: 30%;
     /* Largura */
 }
 
@@ -432,9 +434,11 @@ footer h2 {
 
 @media(max-width:760px) {
 
+
     #menu-header {
         display: none;
     }
+
 
     #btn-header button a {
         display: block;
@@ -442,11 +446,13 @@ footer h2 {
 
     }
 
+
     #btn-header button a p {
         font-size: 0.8;
         font-family: Arial, Helvetica, sans-serif;
 
     }
+
 
     #btn-header button a img {
         width: 30%;
@@ -454,21 +460,26 @@ footer h2 {
 
     }
 
+
     header img {
         width: 40px;
         height: 40px;
 
     }
 
+
     header h1 {
         font-size: 1em;
 
     }
 
+
     header {
         padding: 5%;
 
+
     }
+
 
     #img-destaque {
         max-width: 100%;
@@ -476,10 +487,14 @@ footer h2 {
 
     }
 
+
     #img-padaria {
         width: 100%;
 
     }
+
+
+
 
 
 
