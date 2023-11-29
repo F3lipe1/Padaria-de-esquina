@@ -532,19 +532,26 @@ footer h2 {
 
     }
 
-.clients-item h3{
-    font-size: 1.7em;
-}
+    .clients-item h3 {
+        font-size: 1.7em;
+    }
 
-.clients-item p{
-    font-size: 1.3em;
+    .clients-item p {
+        font-size: 1.3em;
+        margin-bottom: 10%;
 
-}
+    }
 
-.clients-item img{
+    #featured-products h2 {
+        font-size: 1.8em;
+        margin-top: 13%;
+    }
 
-}
-
+    .products {
+        display: block;
+        align-items: flex-start;
+        margin: 20%;
+    }
 
 
 
