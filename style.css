@@ -135,7 +135,43 @@ header>img {
     background-position: center;
     /* Aqui posicionamos nossa imagem para o centro */
     background-size: cover;
-    /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
 
 }
 
@@ -159,7 +195,7 @@ No entanto, uma class pode ser usada para identificar mais de um elemento HTML*/
 
 main>section>h2 {
     /* Aqui estamos chamando nosso H2 para estilização */
-    margin-top: 0 auto;
+    margin-top: 0;
     /*  indica o espaço acima do elemento / superior */
     font-size: 2rem;
     /* Tamanho da letra */
@@ -183,7 +219,7 @@ main>section>h2 {
     /* Aqui chamamos nossa Class que está dentro do nosso HR, que é utilizado como uma quebra de linha temática entre elementos HTML*/
     margin: 0 auto;
     /* Definimos em 0 a margin e colocamos o mesmo para auto para que recaia para o todo */
-    width: 30%;
+    width: 20%;
     /* Largura */
 }
 
@@ -433,12 +469,9 @@ footer h2 {
 }
 
 @media(max-width:760px) {
-
-
     #menu-header {
         display: none;
     }
-
 
     #btn-header button a {
         display: block;
@@ -446,13 +479,11 @@ footer h2 {
 
     }
 
-
     #btn-header button a p {
         font-size: 0.8;
         font-family: Arial, Helvetica, sans-serif;
 
     }
-
 
     #btn-header button a img {
         width: 30%;
@@ -460,26 +491,20 @@ footer h2 {
 
     }
 
-
     header img {
         width: 40px;
         height: 40px;
 
     }
 
-
     header h1 {
         font-size: 1em;
 
     }
 
-
     header {
         padding: 5%;
-
-
     }
-
 
     #img-destaque {
         max-width: 100%;
@@ -487,18 +512,38 @@ footer h2 {
 
     }
 
-
     #img-padaria {
         width: 100%;
 
     }
 
+    #clients h2 {
+        font-size: 1.8em;
 
+    }
 
+    .line {
+        width: 75%;
+    }
 
+    #clients-list {
+        display: block;
+        text-align: center;
 
+    }
 
+.clients-item h3{
+    font-size: 1.7em;
+}
 
+.clients-item p{
+    font-size: 1.3em;
+
+}
+
+.clients-item img{
+
+}
 
 
 
