@@ -136,42 +136,6 @@ header>img {
     /* Aqui posicionamos nossa imagem para o centro */
     background-size: cover;
     /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
-    /*  */
 
 }
 
@@ -379,15 +343,16 @@ main>section>h2 {
     /* Na posição da imagem colocamos ao centro */
     background-size: cover;
     /* */
-    padding: 120px;
+    padding: 8%;
     /* */
+
 }
 
 #sobre-nos>h3 {
     /* */
     color: white;
     /* */
-    font-size: 64px;
+    font-size: 3em;
     /* */
     text-align: center;
     /* */
@@ -403,7 +368,7 @@ main>section>h2 {
     /* */
     color: white;
     /* */
-    font-size: 22px;
+    font-size: 1em;
     /* */
     margin-top: 2em;
     /* */
@@ -544,15 +509,46 @@ footer h2 {
 
     #featured-products h2 {
         font-size: 1.8em;
+        text-align: center;
         margin-top: 13%;
     }
 
     .products {
         display: block;
-        align-items: flex-start;
-        margin: 20%;
     }
 
+    .img-product {
+        margin-top: 70px;
+
+    }
+
+    #featured-products a {
+        margin-top: 25px;
+    }
+
+    #sobre-nos h3 {
+        font-size: 1.5em;
+    }
+
+    #sobre-nos p {
+        font: bold;
+        font-size: 1em;
+    }
+
+    .contatos-footer {
+        display: block;
+
+    }
+
+    #contatos h2 {
+        font-size: 2em;
+
+    }
+
+    .item-menu-footer p {
+        font-size: 1em;
+
+    }
 
 
 }
